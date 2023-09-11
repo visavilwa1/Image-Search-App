@@ -1,4 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+#navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: bisque;
+    z-index: 4;
+}
+
+
 body{
     background-image: url("images/image\ 1.jpg");
     background-size: cover;

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body{
+    background-image: url("images/image\ 1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    animation: change 10s infinite ease-in-out;
+}
+
+.container{
+    padding-top: 4rem;
+    padding: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 20%;
+   display: inline-block;
+   flex-flow: column nowrap;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   border-radius: 10px;
+}
+
+.card{
+    background-color: antiquewhite;
+    width: 600px;
+    display: inline-block;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 30px;
+    box-shadow: 0px 3px 20px rgba(0,0,0,0.1);
+
+}
+
+
+h1{
+    color: #1d0902dc;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 55px;
+    margin-top: 5rem;
+    margin-bottom: 10px;
+}
+
+.address{
+    margin-bottom: 5px;
+    text-align: center;
+    
+h2,h3,h4,h5{
+    font-size: 15px;
+    text-emphasis: 3px;
+    font-family: impact,sans-serif;
+}
+
+}
+.item p{
+    display: inline-block;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+.flavor,.snacks,.Meals,.Drinks{
+    text-align: left;
+    width: 50%;
+}
+
+.price{
+    text-align: right;
+    width: 15%;
+}
+.hr{
+    height: 2px;
+    background-color: rgb(28, 20, 20);
+    border: brown;
+} 
+.bottom-line{
+    margin-top: 25px;
+}
+.footer{
+    font-size: 14px;
+    text-align: center;
+}
+a{
+    color: black;
+    
+}
+a:visited{
+    color: grey;
+}
+a:hover{
+    color: black;
+}
+a:active{
+    color:brown;
+}
+@keyframes change{
+    0%
+    {
+        background-image: url("images/image\ 2.jpg");
+    }
+    20%
+    {
+        background-image: url("images/image\ 3.jpeg");
+    }
+    40%
+    {
+        background-image: url("images/image\ 4.jpeg");
+    }
+

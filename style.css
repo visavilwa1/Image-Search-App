@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 body{
     background-image: url("images/image\ 1.jpg");
@@ -110,3 +111,127 @@ a:active{
         background-image: url("images/image\ 4.jpeg");
     }
 
+=======
+
+#navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: bisque;
+    z-index: 4;
+}
+
+
+body{
+    background-image: url("images/image\ 1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    animation: change 10s infinite ease-in-out;
+}
+
+.container{
+    margin-left: 30%;
+    margin-bottom: 20%;
+   display: inline-block;
+   flex-flow: column nowrap;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   border-radius: 10px;
+   
+}
+
+.card{
+    background-color: rgb(240, 185, 114);
+    width: 500px;
+    display: inline-block;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 3px 20px rgba(0,0,0,0.1);
+
+}
+
+h1{
+ margin:5;
+}
+
+.menu-heading {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 55px;
+    color:#d38754;
+    text-align: center;
+    padding: 10px 0px;
+    box-sizing: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.address{
+    margin-bottom: 5px;
+    text-align: center;
+    
+h2,h3,h4,h5{
+    font-size: 15px;
+    font-family: impact,sans-serif;
+}
+
+}
+.item p{
+    display: inline-block;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+.flavor,.snacks,.Meals,.Drinks{
+    text-align: left;
+    width: 50%;
+}
+
+.price{
+    text-align: right;
+    width: 15%;
+}
+.hr{
+    height: 2px;
+    background-color: rgb(28, 20, 20);
+    border: brown;
+} 
+.bottom-line{
+    margin-top: 25px;
+}
+.footer{
+    font-size: 14px;
+    text-align: center;
+}
+a{
+    color: black;
+    
+}
+a:visited{
+    color: grey;
+}
+a:hover{
+    color: black;
+}
+a:active{
+    color:brown;
+}
+@keyframes change{
+    0%
+    {
+        background-image: url("images/image\ 2.jpg");
+    }
+    20%
+    {
+        background-image: url("images/image\ 3.jpeg");
+    }
+    40%
+    {
+        background-image: url("images/image\ 4.jpeg");
+    }
+
+>>>>>>> fe17662db72a3528942cd1bbda8e90438b82b780

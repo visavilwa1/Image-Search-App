@@ -12,10 +12,11 @@ body{
 
 }
 h1{
-    font-size: 36px;
+    font-size: 46px;
     font-weight: bold;
     text-align: center;
     margin: 40px 0 60px 0;
+    color: #eb919f;
 }
 form{
     display: flex;
@@ -36,7 +37,7 @@ form{
 }
 #search-button{
     padding: 10px 20px;
-    background-color: #722c37;
+    background-color: #ee69c4;
     color: #fff;
     border: none;
     font-size: 18px;
@@ -58,7 +59,7 @@ form{
     width: 30%;
     height: 100%;
     border-radius: 5px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 6px rgba(243, 201, 201, 0.2);
     overflow: hidden;
 }
 .search-result img{
@@ -80,7 +81,7 @@ form{
 
 }
 #show-more-button{
-    background-color: aqua;
+    background-color: rgb(242, 126, 223);
     font-size: 18px;
     border: none;
     color: #fff;
